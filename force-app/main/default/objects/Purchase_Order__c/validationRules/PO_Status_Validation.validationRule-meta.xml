@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Status_Validation</fullName>
+    <active>true</active>
+    <description>Prevents marking the PO as &apos;Received&apos; if the total cost is zero.</description>
+    <errorConditionFormula>ISPICKVAL(Status__c, &quot;Received&quot;) &amp;&amp; Total_Cost__c == 0</errorConditionFormula>
+    <errorMessage>Total Cost must be greater than zero to mark the PO as &apos;Received.&apos;</errorMessage>
+</ValidationRule>

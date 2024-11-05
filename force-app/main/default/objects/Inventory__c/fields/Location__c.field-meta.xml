@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Select the warehouse where this inventory item is stored.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the warehouse associated with this inventory item. This field is required.</inlineHelpText>
+    <label>Location</label>
+    <referenceTo>Warehouse__c</referenceTo>
+    <relationshipLabel>Inventories</relationshipLabel>
+    <relationshipName>Inventories</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

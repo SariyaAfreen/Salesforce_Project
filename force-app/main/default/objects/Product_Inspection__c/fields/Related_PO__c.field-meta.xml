@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_PO__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the purchase order that this inspection is related to.</inlineHelpText>
+    <label>Related PO</label>
+    <referenceTo>Purchase_Order__c</referenceTo>
+    <relationshipLabel>Product Inspections</relationshipLabel>
+    <relationshipName>Product_Inspections</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Code__c</fullName>
+    <displayFormat>SUP-{0000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically generated unique code for each supplier.</inlineHelpText>
+    <label>Supplier Code</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

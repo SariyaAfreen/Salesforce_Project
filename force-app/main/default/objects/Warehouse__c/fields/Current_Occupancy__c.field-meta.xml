@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Occupancy__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field shows the current occupancy level of the warehouse based on inventory quantities.</inlineHelpText>
+    <label>Current Occupancy</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Code__c</fullName>
+    <displayFormat>ITEM-{0000}</displayFormat>
+    <externalId>false</externalId>
+    <label>Item Code</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCR_ID__c</fullName>
+    <displayFormat>NCR-{0000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically generated unique identifier for each Non-Conformance Report.</inlineHelpText>
+    <label>NCR ID</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

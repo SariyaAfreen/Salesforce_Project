@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inspection_ID__c</fullName>
+    <displayFormat>INS-{0000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically generated unique identifier for each inspection.</inlineHelpText>
+    <label>Inspection ID</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>
